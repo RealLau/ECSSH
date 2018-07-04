@@ -5,7 +5,7 @@ from Common import *
 
 class SSH(wx.Frame):
     def __init__(self, parent):
-        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="ESSH", pos=wx.DefaultPosition, size=wx.Size(650, 480), style=wx.DEFAULT_FRAME_STYLE | wx.RESIZE_BORDER | wx.TAB_TRAVERSAL)
+        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="ECSSH", pos=wx.DefaultPosition, size=wx.Size(650, 480), style=wx.DEFAULT_FRAME_STYLE | wx.RESIZE_BORDER | wx.TAB_TRAVERSAL)
         self.panel = wx.Panel(self, -1)
         self.sizer = wx.BoxSizer(wx.VERTICAL)
         sizer_top = wx.GridSizer(1, 4, 5, 5)
